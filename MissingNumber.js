@@ -1,5 +1,7 @@
-let array1 = [5, 4 ,1, 2];
+let array1 = [5, 4 ,1, 2]
+let n1 = 5
 let array2 = [9, 5, 3, 2, 6, 1, 7, 8, 10]
+let n2 = 10
 
 function findMissingNumber(array, n) {
     // find the expected sum given n.
@@ -10,5 +12,5 @@ function findMissingNumber(array, n) {
     return expectedSum - trueSum
 }
 
-console.log(findMissingNumber(array1, 5))
-console.log(findMissingNumber(array2, 10))
+console.log(findMissingNumber(array1, n1))
+console.log(findMissingNumber(array2, n2))
