@@ -4,7 +4,7 @@ let array2 = [9, 5, 3, 2, 6, 1, 7, 8, 10]
 let n2 = 10
 
 function findMissingNumber(array, n) {
-    // find the expected sum given n.
+    // find the expected sum given n. 
     const expectedSum = n*(n + 1)/2
     //find actual sum of array
     const trueSum = array.reduce((sum, num) => sum + num, 0)
